@@ -1,0 +1,9 @@
+version: '3'
+services:
+  postgres:
+    environment:
+      - TEST_ENV='true'
+  redmine:
+    environment:
+      - TEST_ENV=7ff8d6d55cfd
+      - SECOND_ENV=second
